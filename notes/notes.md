@@ -22,3 +22,10 @@ Best Java library for Redis
 
 Lettuce is also a good option
 
+## Get notification from Redis when a key expires
+
+```
+$ config set notify-keyspace-events AKE
+```
+
+[Reference](https://redis.io/topics/notifications#configuration)
