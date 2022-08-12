@@ -5,6 +5,7 @@
 - Simple key-value store
 
 ```bash
+$ sudo chmod 666 /var/run/docker.sock
 $ docker-compose up
 $ docker exec -it redis bash
 $ redis-cli
