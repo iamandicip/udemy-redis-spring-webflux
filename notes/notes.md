@@ -30,3 +30,10 @@ $ config set notify-keyspace-events AKE
 ```
 
 [Reference](https://redis.io/topics/notifications#configuration)
+
+
+## Jmeter
+
+```bash
+$ ./jmeter -n -t ../redis-course/product-service.jmx -l ../redis-course/v1.jtl
+```

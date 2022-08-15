@@ -12,7 +12,7 @@
 	<artifactId>redis-performance</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>redis-performance</name>
-	<description>Redis performance tst</description>
+	<description>Redis performance Test</description>
 	<properties>
 		<java.version>18</java.version>
 	</properties>
@@ -25,7 +25,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.redisson</groupId>
+			<artifactId>redisson-spring-boot-starter</artifactId>
+			<version>3.16.1</version>
+		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
