@@ -37,3 +37,15 @@ $ config set notify-keyspace-events AKE
 ```bash
 $ ./jmeter -n -t ../redis-course/product-service.jmx -l ../redis-course/v1.jtl
 ```
+
+## SSE (Server-Sent Events) / WebSocket
+
+- SSE
+  - 1 way communication from server to client
+  - used for text data
+  - Ex: stock price update, weather updates
+- WebSocket
+  - 2 way communication between server and client
+  - used for binary / text data
+  - Ex: chat application
+

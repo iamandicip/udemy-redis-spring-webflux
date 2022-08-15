@@ -47,7 +47,7 @@ public class CityService {
                 .onErrorResume(ex -> this.cityClient.getCity(zipCode)); // if Redis crashes
     }
 
-    @Scheduled(fixedRate = 10_000)
+//    @Scheduled(fixedRate = 10_000)
     public void updateCities() {
         System.out.println("Updating cities");
         cityClient.getAll()

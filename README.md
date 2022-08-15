@@ -5,5 +5,8 @@ Udemy Course Redis with Spring WebFlux
 - Redisson
 - Spring WebFlux
 - Caching
+- PubSub
+- HyperLogLog
 - R2DBC
 - Postgres
+- WebSocket
