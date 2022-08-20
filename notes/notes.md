@@ -25,7 +25,7 @@ Lettuce is also a good option
 
 ## Get notification from Redis when a key expires
 
-```
+```bash
 $ config set notify-keyspace-events AKE
 ```
 
