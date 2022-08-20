@@ -1,5 +1,6 @@
-# udemy-redis-spring-webflux
-Udemy Course Redis with Spring WebFlux
+# Udemy Course Redis with Spring WebFlux
+
+Topics covered in this course:
 
 - Redis
 - Redisson
