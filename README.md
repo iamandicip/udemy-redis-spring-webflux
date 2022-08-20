@@ -10,3 +10,4 @@ Udemy Course Redis with Spring WebFlux
 - R2DBC
 - Postgres
 - WebSocket
+- GeoSpatial
